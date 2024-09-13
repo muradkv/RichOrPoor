@@ -12,6 +12,8 @@
 		FAA039DC2C9465D70006C11B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039DB2C9465D70006C11B /* BaseViewController.swift */; };
 		FAA039E12C9465D80006C11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA039E02C9465D80006C11B /* Assets.xcassets */; };
 		FAA039EC2C949A780006C11B /* AppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039EB2C949A780006C11B /* AppIconManager.swift */; };
+		FAA039EE2C94B6A10006C11B /* RichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039ED2C94B6A10006C11B /* RichViewController.swift */; };
+		FAA039F02C94BDAD0006C11B /* PoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039EF2C94BDAD0006C11B /* PoorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FAA039E02C9465D80006C11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA039E52C9465D80006C11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA039EB2C949A780006C11B /* AppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconManager.swift; sourceTree = "<group>"; };
+		FAA039ED2C94B6A10006C11B /* RichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichViewController.swift; sourceTree = "<group>"; };
+		FAA039EF2C94BDAD0006C11B /* PoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FAA039E02C9465D80006C11B /* Assets.xcassets */,
 				FAA039E52C9465D80006C11B /* Info.plist */,
 				FAA039EB2C949A780006C11B /* AppIconManager.swift */,
+				FAA039ED2C94B6A10006C11B /* RichViewController.swift */,
+				FAA039EF2C94BDAD0006C11B /* PoorViewController.swift */,
 			);
 			path = RichOrPoor;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 				FAA039EC2C949A780006C11B /* AppIconManager.swift in Sources */,
 				FAA039DC2C9465D70006C11B /* BaseViewController.swift in Sources */,
 				FAA039D82C9465D70006C11B /* AppDelegate.swift in Sources */,
+				FAA039EE2C94B6A10006C11B /* RichViewController.swift in Sources */,
+				FAA039F02C94BDAD0006C11B /* PoorViewController.swift in Sources */,
 				FAA039DA2C9465D70006C11B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
