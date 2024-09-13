@@ -11,6 +11,7 @@
 		FAA039DA2C9465D70006C11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039D92C9465D70006C11B /* SceneDelegate.swift */; };
 		FAA039DC2C9465D70006C11B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039DB2C9465D70006C11B /* BaseViewController.swift */; };
 		FAA039E12C9465D80006C11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA039E02C9465D80006C11B /* Assets.xcassets */; };
+		FAA039EC2C949A780006C11B /* AppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039EB2C949A780006C11B /* AppIconManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FAA039DB2C9465D70006C11B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FAA039E02C9465D80006C11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA039E52C9465D80006C11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA039EB2C949A780006C11B /* AppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FAA039DB2C9465D70006C11B /* BaseViewController.swift */,
 				FAA039E02C9465D80006C11B /* Assets.xcassets */,
 				FAA039E52C9465D80006C11B /* Info.plist */,
+				FAA039EB2C949A780006C11B /* AppIconManager.swift */,
 			);
 			path = RichOrPoor;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA039EC2C949A780006C11B /* AppIconManager.swift in Sources */,
 				FAA039DC2C9465D70006C11B /* BaseViewController.swift in Sources */,
 				FAA039D82C9465D70006C11B /* AppDelegate.swift in Sources */,
 				FAA039DA2C9465D70006C11B /* SceneDelegate.swift in Sources */,
@@ -261,8 +265,10 @@
 		FAA039E92C9465D80006C11B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=*]" = RichIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6D3DZE2WM;
@@ -292,8 +298,8 @@
 		FAA039EA2C9465D80006C11B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6D3DZE2WM;
